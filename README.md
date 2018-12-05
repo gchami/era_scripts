@@ -20,3 +20,9 @@ The insert script adds another row with default values which builds out the mess
 # show_sql.sh
 
 The show script retrieves the contenet of the message table
+
+# config.sh
+
+This is where the variables are kept. The current variables are as follows
+
+DB : DB name 

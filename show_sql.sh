@@ -1,2 +1,6 @@
 #!/bin/bash
-/usr/pgsql-10.4/bin/psql -U postgres -d gchamidb -c "SELECT *  FROM message"
+source config.sh
+
+/usr/pgsql-10.4/bin/psql -U postgres -d $DB -c "SELECT *  FROM message"
+
+echo "result from" $DB "Database"
